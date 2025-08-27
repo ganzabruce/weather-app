@@ -20,7 +20,17 @@ html, body, #root {
     align-items: center;
     flex-direction: column;
 }
-
+.search-box{
+    position: relative;
+}
+.my-btn{
+    top: 27%;
+    right: 4%;
+    padding: 3px 5px;
+    cursor: pointer;
+    color: black;
+    position: absolute;
+}
 .search {
     outline: none;
     padding: 20px;
@@ -88,8 +98,16 @@ p {
     .search {
         padding: 20px 15%;
     }
-
+.my-btn{
+        right: -20%;
+    }
     .city {
         padding: 40px 20%;
+    }
+}
+
+@media (max-width: 412px){
+    .my-btn{
+        right: -20%;
     }
 }
